@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background: linear-gradient(
+      180deg,
+      rgba(21, 20, 20, 0.2) 0%,
+      rgba(58, 57, 57, 0.6) 100%
+    ),
+    linear-gradient(180deg, rgba(36, 32, 32, 0.2) 0%, transparent 100%);
 }
 
 .App-logo {
@@ -31,12 +37,13 @@ img {
   max-width: 50%;
   object-fit: cover;
 }
-
+/*
 .nasa-photo-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+*/
 .explanation {
   max-width: 50%;
 }

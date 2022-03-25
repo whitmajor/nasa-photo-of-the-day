@@ -1,7 +1,9 @@
-import React,{useEffect,useState} from "react";
-import axios from "axios"
+import React,{useEffect,useState} from 'react';
+import axios from 'axios'
 import "./App.css";
 import NasaPhoto from "./components/images";
+
+
 
 const dummyData = {
  date: "2022-03-23",
@@ -12,6 +14,7 @@ title: "The Bubble Nebula from Hubble",
 }
  function App(){
   const [data, setData] = useState(dummyData);
+
   
 
 useEffect(()=>{
@@ -25,6 +28,7 @@ useEffect(()=>{
   
   return (
     <div className="App">
+    
       <p>
         <NasaPhoto photo={data} />
       </p>
